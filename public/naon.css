@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: "Lekton", monospace;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+}
+:root {
+    --bb: #E8EAEC;
+    --cc: #181818;
+}
+html {
+    font-size: 20px;
+    background-color: var(--bb);
+    color: var(--cc);
+}
+body, img, hr, span {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    padding: 0;
+}
+hr {
+    border-bottom: solid 1px var(--cc);
+}
+span {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+ctr-box {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
